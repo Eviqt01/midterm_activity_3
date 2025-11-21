@@ -13,7 +13,7 @@
 >
 	<h1 class="text-2xl font-bold font-sans text-center">Random Joke <br /> Generator</h1>
 	<section
-		class="p-10 bg-black rounded-md border shadow flex flex-col items-center gap-4 min-w-100 w-50"
+		class="p-10 bg-black rounded-md border shadow flex flex-col items-center gap-4 sm:min-w-100 sm:w-50"
 	>
 		<span class=" text-5xl">😂</span>
 		<span class="text-white text-center font-sans">{joke}</span>
@@ -27,7 +27,7 @@
 </main>
 <footer class="bg-gray-300 flex flex-col items-center gap-5 p-10">
 	<h1 class="text-3xl text-gray-700 font-bold">Finals Activity 2</h1>
-	<div class="flex flex-row gap-2">
+	<div class="flex flex-col sm:flex-row sm:flex gap-2 flex-wrap">
 		<span class="bg-gray-800 text-white p-3 rounded-md">Eviota, Jhun Jay Mars</span>
 		<span class="bg-gray-800 text-white p-3 rounded-md">Genon, Christian Owen</span>
 		<span class="bg-gray-800 text-white p-3 rounded-md">Helera, Rommel Christian</span>
